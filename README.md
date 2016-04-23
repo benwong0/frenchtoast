@@ -1,5 +1,7 @@
 The goal of FrenchToast is to create a more flexible and stylish Toast system for Android. It should maintain the basic functions of the Android Toast system while allowing more flexible customizations.
 
+FrenchToast also allows multiple toast on screen. Toast will stack on top of each other.
+
 # Quick Start
 
 ```Java
@@ -22,4 +24,13 @@ toast.setTextColor(ContextCompat.getColor(this, R.color.my_toast_text_color));
 
 // Set toast text size.
 toast.setTextSize(15);
+
+// Show toast!
+toast.show();
 ```
+
+# Hide toast
+toast.hide();
+
+# Clear all toast
+FrenchToast.clear();
