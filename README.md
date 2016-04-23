@@ -29,8 +29,8 @@ toast.setTextSize(15);
 toast.show();
 ```
 
-# Hide toast
+# Hide Toast
 toast.hide();
 
-# Clear all toast
+# Clear All Toasts
 FrenchToast.clear();
