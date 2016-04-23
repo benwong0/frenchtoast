@@ -30,7 +30,11 @@ toast.show();
 ```
 
 # Hide Toast
+```Java
 toast.hide();
+```
 
 # Clear All Toasts
+```Java
 FrenchToast.clear();
+```
